@@ -60,3 +60,13 @@ body{
 input:hover,input:focus{
     border: 1px solid green;
 }
+
+.design{
+    font-size: 0.7rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.design a{
+    text-decoration: none;
+}
