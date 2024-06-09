@@ -1,0 +1,62 @@
+*{  
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body{
+    background-color: blue;
+}
+
+.body{
+    margin-top: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+    width: 60vh;
+    background-color: white;
+}
+.change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    gap: 1rem;
+}
+
+.change select>option{
+    background-color: whitesmoke;
+    width: 3rem;
+    height: 10rem;
+    padding-left: 1rem;
+}
+
+.change select{
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.text-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.text-color input{
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: rgb(176, 221, 255);
+}
+
+input:hover,input:focus{
+    border: 1px solid green;
+}
